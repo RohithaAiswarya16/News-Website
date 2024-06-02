@@ -4,8 +4,8 @@ const cors = require('cors');
 
 const app = express();
 const PORT = process.env.PORT || 3001;
-const API_KEY = 'YOUR_API_KEY'; // Replace with your News API key
-const CACHE_DURATION = 10 * 60 * 1000; // 10 minutes
+const API_KEY = 'bad86217a3c94531b8417cde183d01f2'; 
+const CACHE_DURATION = 10 * 60 * 1000; 
 
 app.use(cors());
 
